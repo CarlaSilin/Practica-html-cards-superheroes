@@ -1,0 +1,128 @@
+.top p {
+  background-color: #d1891c;
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 5px;
+}
+
+.navbar {
+  background: #00669f;
+  box-shadow: 0px 6px 7px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+  padding: 5px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.card {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 32px;
+  background-color: #f3f3f3;
+  width: 350px;
+  height: 500px;
+}
+
+.img-fondo {
+  width: 100%;
+  height: 40%;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.img-avatar {
+  height: 23%;
+  width: 30%;
+  margin-top: -70px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+h2 {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+p {
+  color: #333;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 0;
+}
+
+.button {
+  border-radius: 7px;
+  background-color: #00669f;
+  width: 120px;
+  height: 60px;
+  color: #f3f3f3;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #00669f;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+p.derechos {
+  color: #fff9f9;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  text-align: center;
+}
+
+.logo-github {
+  width: 80px;
+}
+
+@media (min-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .navbar {
+    font-size: 24px;
+  }
+}
